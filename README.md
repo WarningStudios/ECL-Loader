@@ -121,6 +121,9 @@ const ClickForCoins = {
 
 This will requeue the module if the target module wasn't defined. If the target module is never defined, the system automatically detects this and stops retrying. It will also detect recursive modules.
 
-
-
-
+## Problems
+### A callback isn't called
+- You didn't add it to `ACTIVE_ECL_CALLBACKS`
+- You didn't register the code in `ECL_POSITIONS`
+- You didn't export the module with `expose`
+- Your module is not in a correct format
