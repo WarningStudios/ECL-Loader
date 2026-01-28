@@ -3,7 +3,7 @@
 This module loader hides your world code from other people, allows you to create modular codes that can be used by other modules and gives you infinite space in your world code.
 
 ## Installation
-Copy all the code from the file into world code. We advise you not to have any other codes in world code when doing this. You can put your other codes in world code instead, since this code has about 5000 characters and can use many callbacks, depending on what you load with it.
+Copy all following code into world code. We advise you not to have any other codes in world code when doing this. You can put your other codes in world code instead, since this code has about 5000 characters and can use many callbacks, depending on what you load with it.
 
 ```js
 
